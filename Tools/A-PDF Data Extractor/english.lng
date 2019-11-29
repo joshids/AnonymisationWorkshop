@@ -1,0 +1,242 @@
+###########################################################
+#
+#  Language:		English
+#  Author:		XianCai Huang
+#  Product Name:	A-PDF Data Extractor
+#  Product Version:	2.0.0
+#
+###########################################################
+
+[Font]
+Name=Tahoma
+Size	=8
+CharSet =Default
+
+[frmmain]
+Label6.Caption                				=The list is empty. Please add some PDF           documents to begin...
+Label4.Caption                				=Open the           files.
+lblDemoFiles.Caption          				=Demo
+btnAddPdf.Caption             				=Add &PDF File
+btnAddDirAction.Caption       				=Add Fol&der
+btnDelPdf.Caption             				=Re&move
+btnDelAllPdf.Caption          				=Remo&ve All
+Panel5.Caption                				=Panel4
+Label1.Caption                				=Add PDF Document(s)
+btnExtractData.Caption        				=&Extract All
+sbthelp.Caption               				=Help
+btnstop.Caption               				=&Stop
+btnSettingCfg.Caption         				=Op&tions
+SpeedButton1.Caption          				=&Extract All
+Panel7.Caption                				=Panel4
+Label3.Caption                				=Extract PDF(s) data based on selected rule
+Label2.Caption                				=Select a Rule for Extraction
+TabSheet1.Caption             				=Rule 
+lbl1.Caption                  				=Please sele&ct a rule:
+btnRuleEdit.hint              				=Edit the selected rule
+btnRuleAdd.hint               				=Add a new rule
+btnDelete.hint                				=Delete the selected rule
+btnImport.hint                				=Import a rule from a file
+btnExport.hint                				=Export a rule to somewhere
+lbl2.Caption                  				=Fields preview of selected rule:
+FileF1.Caption                				=&File
+mniaddpdf.Caption             				=Add &PDF File
+mniadddir.Caption             				=Add Fol&der
+mniOpenFile.Caption           				=&Open File
+mniremoveFile.Caption         				=Re&move
+mniclearFiles.Caption         				=Remo&ve All
+Quit1.Caption                 				=&Exit
+ools1.Caption                 				=&Rule
+mniRuleAdd.Caption            				=&New Rule
+mniRuleAdd.hint               				=Add a new rule
+mniRuleEdit.Caption           				=&Edit Rule
+mniRuleEdit.hint              				=Edit the selected rule
+mniRuleDelete.Caption         				=&Delete Rule
+mniRuleDelete.hint            				=Delete the selected rule
+mniRuleImport.Caption         				=&Import Rule
+mniRuleImport.hint            				=Import a rule from a file
+mniRuleExport.Caption         				=&Export Rule
+mniRuleExport.hint            				=Export a rule to somewhere
+Images1.Caption               				=&Action
+mniExtractData.Caption        				=&Extract All
+Extracttoeach1.Caption        				=E&xtract to each
+mniExtractStrop.Caption       				=&Stop
+Help1.Caption                 				=&Help
+Help2.Caption                 				=&Help
+Regirst1.Caption              				=&About...
+mniContactus1.Caption         				=&Contact us...
+mniOpenFile1.Caption          				=&Open File
+mniaddpdf1.Caption            				=Add &PDF File
+mniremoveFile1.Caption        				=Re&move
+mniclearFiles1.Caption        				=Remo&ve All
+actaddpdf.Caption             				=Add &PDF File
+actadddir.Caption             				=Add Fol&der
+actremoveFile.Caption         				=Re&move
+actclearFiles.Caption         				=Remo&ve All
+actRuleAdd.hint               				=Add a new rule
+actRuleEdit.hint              				=Edit the selected rule
+actRuleDelete.hint            				=Delete the selected rule
+actRuleImport.hint            				=Import a rule from a file
+actRuleExport.hint            				=Export a rule to somewhere
+actExtractData.Caption        				=&Extract All
+actmemosave.hint              				=Save the text to a file.
+actmemocopy.hint              				=Copy To clipboard ..
+actExtractStrop.Caption       				=&Stop
+actmemoClear.hint             				=Clear the log
+actOpenFile.Caption           				=&Open File
+actSettingCfg.Caption         				=Op&tions
+actExtractDataForEach.Caption 				=E&xtract to each
+
+[frmRule]
+Label11.Caption               				=Left:
+Label11.hint                  				=Inch
+Label16.Caption               				=Top:
+Label16.hint                  				=Inch
+Label18.Caption               				=Width:
+Label18.hint                  				=Inch
+Label19.Caption               				=Height:
+Label19.hint                  				=Inch
+
+Label14.Caption               				=Custom Fields for Extracting
+Label15.Caption               				=You can change the selected field name above!
+Label17.Caption               				=&Field Name:
+lbl2.Caption                  				=The unchecked ones will not be output to the result file.
+
+btndown.Caption               				=Do&wn
+btnup.Caption                 				=U&p
+chkToggleShowName.Caption     				=Toggle to check or uncheck all
+btnDeleteFieldFromLV.Caption  				=Add Const Field
+btnDeleteLines.hint           				=Delete fields
+btnCmdHisUnDo.hint            				=Undo
+btnCmdHistRedo.hint           				=Redo
+btnAddField.hint              				=Draw a field
+SpeedButton1.hint             				=Draw a field
+Label5.Caption                				=Custom a Rule for PDF Data Extraction
+Label4.Caption                				=PDF Sample:
+lbl1.Caption                  				=&Rule Name:
+btnFileOpen.Caption           				=&Browse...
+btnSaveRule.Caption           				=&Save And Exit
+btnSaveRule1.Caption          				=Rule Options
+actViewFirstPage.hint         				=View the first page
+actViewNextPage.hint          				=View the next page
+actViewLastPage.hint          				=View the last page
+actViewPrePage.hint           				=View the previous page
+actZoomToFitWidth.hint        				=Zoom the document and make it fit the width
+actZoomToFitHeight.hint       				=Zoom the document and make it fit the height
+actOpenPDF.Caption            				=&Browse...
+actBrowseDataSourceFile.Caption				=Browse
+actSaveRule.Caption           				=&Save And Exit
+actZoomIn.hint                				=Zoom in
+actZoomOut.hint               				=Zoom out
+actAlignLeft.hint             				=Align Labels Left
+actAlignRight.hint            				=Align Labels Right
+actAlignTop.hint              				=Align Labels Top
+actAlignBottom.hint           				=Align Labels Bottom
+actEqHeight.hint              				=Set Equal Heights
+actEqWidth.hint               				=Set Equal Widths
+actAddFiled.Caption           				=&Add As Field-->
+actMoveUp.Caption             				=U&p
+actMoveDown.Caption           				=Do&wn
+actDelField.Caption           				=De&lete
+actDeleteFieldFromGraph.hint  				=Delete fields
+actDeleteFieldFromLV.Caption  				=De&lete
+actDeleteFieldFromLV.hint     				=Delete the selected fields
+actAddConstField.Caption      				=Add Const Field
+actMergeField.Caption         				=&Merge Fields
+actSetRuleOptions.Caption     				=Rule Options
+AddConstField1.Caption        				=Add Const Field
+Delete1.Caption               				=De&lete
+Delete1.hint                  				=Delete the selected fields
+mniCheck1.Caption             				=&Merge Fields
+MenuItem1.Caption             				=&Add As Field-->
+
+
+[frmAddField]
+tsPositeionField.Caption      				=Position Field Info
+Label1.Caption                				=&Field Name:
+lbl6.Caption                  				=The field name will be the column name of the Excel file.
+tsConstField.Caption          				=System Const Field
+lbl4.Caption                  				=&Const Type:
+lbl1.Caption                  				=&Field Name:
+lblConstStrValue.Caption      				=Const &Text:
+tsCompositeField.Caption      				=Merged Filed
+lbl2.Caption                  				=&Field Name:
+lbl3.Caption                  				=Field &Value:
+lbl5.Caption                  				=Field &Member:
+lbl7.Caption                  				=Check the item to make it be member of the field.
+btnOk.Caption                 				=&OK
+btnCancel.Caption             				=&Cancel
+
+
+[frmRuleOptions]
+ts1.Caption                   				=&Record Options
+grp1.Caption                  				=How is the record split
+lblPageCount.Caption          				=&Pages Count:
+rbOnePDFFile.Caption          				=One record per &one PDF files
+rbNpages.Caption              				=One record per &N Page(s) within the PDF file
+btnSave.Caption               				=&Save
+btnCloase.Caption             				=&Close
+
+ 
+[STRINGS]
+1					= Thank you for registering
+2					= Invalid Register Key
+3					= The product has been licensed. 
+4					= The product has been licensed to:
+5					= Q: How to order||A: Click the "Online Purchase" button above, or visit our homepage (http://www.a-pdf.com) for more options. We will send your registration key after receiving your order. If you cannot access the Internet, please call our Toll Free number 1-877-353-7297, and give the operator the product number %s. The product price is %s.
+6	=This product is shareware. The trial period is %d days and %d days remain.
+7	=The trial period has ended. Further use requires registration.
+8	=If you ordered, you will get a register key (license code), after inputting the code below, the product can be used permanently. 
+
+
+20                            				=PDF file cannot be open.
+21                            				=Need password to open the file
+22                            				=Occurred an error when decrypting the file.
+23                            				=Unknown Error.
+24                            				=Open File Error.
+25                            				=Are you sure to remove all the files?
+26                            				=Sure to remove all files?
+27                            				=There is no page numbered '%d' in this document.
+28                            				=No such page in the document
+29                            				=Page#: %d/%d
+30                            				=%d item(s) selected
+31                            				=Total %d item(s)
+32                            				=Are you sure to delete the rule? Once deleted, it can not be restored.
+33                            				=Sure to Delete?
+34                            				=The rule's name cannot be empty, please input the rule's name.
+35                            				=Invalid name
+36                            				=Please make sure you have opened a PDF files!
+37                            				=Cannot save
+38                            				=Rule "%s" already exists, overwrite it?
+39                            				=Sure to Overwrite?
+40                            				=Change PDF template may clear some fields you have added, are you sure you want to continue?
+41                            				=Change PDF template?
+42                            				=Do you want to save changes to the rule?
+43                            				=Save changes?
+44                            				=Extracting data is in progress, you should stop the processing first before you exit.
+45                            				=Can't Exit
+46                            				=You have successfully canceled the extraction process.
+47                            				=Extraction Process Canceled
+48                            				=Finish extracting, do you want to open the result folder?
+49                            				=Finish extracting, do you want to open the result file?
+50                            				= Finish extracting
+51                            				=Record: [%d]
+52                            				=Finished extracting data from file [%s]
+53                            				=Import the rule file successfully!
+54                            				=Finish importing
+55                            				=Export the rule file successfully!
+56                            				= Finish importing 
+57                            				=Failed to extract data from file "%s". [%s]
+58                            				= The field name cannot be left empty!
+59                            				=Invalid Field name
+60																 =Please select a folder for the result files
+61																 =Please select another PDF file to edit the rule.
+62																 =Select a file
+
+70                            				=Cannot delete fields that are children of other fields!
+71                            				=Cannot Delete Field
+72                            				=The const text cannot be empty.
+73                            				=Invalid Input
+74                            				=The field value pattern cannot be empty.
+75                            				=Invalid Input
+76                            				=You must check some items.
+77                            				=Invalid Input

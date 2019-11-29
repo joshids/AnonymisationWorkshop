@@ -1,0 +1,60 @@
+
+ A-PDF Data Extractor Command Line Usage:
+
+ PDECMD.exe <Rule Name> <Input file list> <Output file> <Output type>
+             <Output Option>
+
+
+  <Rule Name>        -R<Rule Name>, The rule can be defined from A-PDF
+                     Data Extractor GUI. The rule name must exist.
+  <Input file list>  -F<File list>, The txt file that contains a list of PDF
+                     files (including Path) which will be extracted .
+                     This parameter also could be single PDF file name.
+  <Output file>      -O<Output file>, Specifies the name for the output file
+  <Output data type> -T<Output type>, the value can be XLS, CSV or XML.
+                     The default value is XLS.
+  <Output Option>    -P<Output Option>, Specifies the option for the output file
+
+                     This value can be: A or E. The default value is A.
+                     A: All PDF files to one file(Excel or CSV) in one sheet
+                     E: Each PDF file to separate Excel or CSV file.
+                     Notes: when this value is E, <Output file> must be a folder
+.
+
+
+ Example 1:
+ PDECMD -R"Demo_Rule" -F"C:\PDFFileList.txt"  -O"C:\output.xls"
+         -TXLS -PA
+
+ Note: "C:\PDFFileList.txt" contains a list of PDF files
+       The content in "C:\PDFFileList.txt" can be like this:
+       c:\demodata1.pdf
+       c:\demodata2.pdf
+       c:\demodata3.pdf
+       c:\demodata4.pdf
+       c:\demodata5.pdf
+
+ Example 2:
+ PDECMD -R"RuleName1" -F"c:\inputDataPDF.pdf" -O"C:\outputfolder\"
+         -TCSV -PE
+
+ Example 3:
+ PDECMD -R"RuleName2" -F"C:\PDFFileList.txt"  -O"C:\output.xml"
+         -TXML -PA
+
+ Example 4:
+ PDECMD -R"RuleName3" -F"C:\PDFFileList.txt"  -O"C:\outputfolder\"
+         -TXLS -PE
+         
+         
+         
+Return Code:
+
+0 = sucessfully 
+1 = help
+2 = file list not found;
+
+3 = parameters are invalid;
+4 = The rule file not defined
+7 = Failed to save the ouput file.
+99 =Except error. program error!         
